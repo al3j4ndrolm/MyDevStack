@@ -5,7 +5,7 @@
 provider(
     AuthProvider.Google(
         scopes = listOf("email"),
-        serverClientId = getString(R.string.default_web_client_id),
+        serverClientId = stringResource(R.string.default_web_client_id),
     )
 )
 ```
